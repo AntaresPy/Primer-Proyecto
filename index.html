@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<HTMl lang='es'>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="description" content="Empresa Samudio Cabral" />
+        <meta name="author" content="Alopez" />
+        <meta name="keywords" content="empresa, samudio, cabral, samudio cabral,Empresa Samudio Cabral">
+
+        <title>Empresa Samudio Cabral</title>
+
+        <link rel="stylesheet" href="css/StyleHome.css">
+
+        <!--imagenes BANNERS-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+        s
+    </head>
+
+    <body>
+        <div class="content">
+            <header class = "header">
+                <a href="index.html"><img src="images/Logo.png" alt="Logo_Emp"></a>           
+
+                <nav>
+                    <ul>
+                        <li><a href="nosotros.html">NOSOTROS</a></li>
+                        <li><a href="servicios.html">SERVICIOS</a></li>
+                        <li><a href="pregfec.html">PREGUNTAS</a></li>
+                        <li><a href="contacts.html">CONTACTOS</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <Div class="banner">
+                <article>
+                    <div class="banner">
+                        <div class="imgbanner">
+                            <ul class="bxslider">
+                                <li><img src="images/slider1.jpg" alt="slider1"></li>
+                                <li><img src="images/slider2.jpg" alt="slider2"></li>
+                                <li><img src="images/slider3.jpg" alt="slider3"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </Div>
+            
+        </div>
+
+        <footer class = "piepag">
+                <div class="a">
+                    <p>Visite nuestras Redes Sociales</p></div>
+                    <ul class="imgfoot">
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="Logo_faceb"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/?hl=es-la" target="_blank"><img src="images/instagram.png" alt="Logo_insta"></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/explore" target="_blank"><img src="images/twitter.png" alt="logo_twitt"></a>
+                        </li>
+                        <li>
+                            <a href="https://web.whatsapp.com/" target="_blank"><img src="images/whatsapp.png" alt="logo_whatsapp"></a>
+                        </li>
+                    </ul>
+                </div>
+        </footer>
+
+        <script>
+            $(document).ready(function(){
+                $('.bxslider').bxSlider({
+                    auto: true,
+                    mode: 'fade',
+                    randomStart: true,
+                    slideWidth: 1600,
+                    stopAutoOnClick: true,
+                    infiniteLoop: true,
+                    speed: 500,
+                    slideMargin: 0
+                });
+            })
+        </script>
+    <!-- autoControls: true, stopAutoOnClick: true,pager: true,slideWidth: 1000,randomStart: true -->        
+    </body>
+
+</HTMl>
